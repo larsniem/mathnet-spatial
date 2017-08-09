@@ -16,7 +16,7 @@ namespace MathNet.Spatial.Euclidean
     /// A unit vector, this is used to describe a direction in 3D
     /// </summary>
     [Serializable]
-    public class UnitVector3D : IXmlSerializable, IEquatable<UnitVector3D>, IEquatable<Vector3D>, IFormattable
+    public struct UnitVector3D : IXmlSerializable, IEquatable<UnitVector3D>, IEquatable<Vector3D>, IFormattable
     {
         /// <summary>
         /// Using public fields cos: http://blogs.msdn.com/b/ricom/archive/2006/08/31/performance-quiz-11-ten-questions-on-value-based-programming.aspx

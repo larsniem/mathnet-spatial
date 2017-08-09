@@ -12,7 +12,7 @@
     /// http://web.cs.iastate.edu/~cs577/handouts/quaternion.pdf
     /// http://www.lce.hut.fi/~ssarkka/pub/quat.pdf
     /// </remarks>
-    public class Quaternion : IEquatable<Quaternion>, IFormattable
+    public struct Quaternion : IEquatable<Quaternion>, IFormattable
     {
         readonly double _w; // real part 
         readonly double _x, _y, _z; // imaginary part   

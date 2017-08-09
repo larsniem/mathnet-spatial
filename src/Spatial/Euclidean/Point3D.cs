@@ -262,6 +262,11 @@ namespace MathNet.Spatial.Euclidean
         ////    return new System.Windows.Media.Media3D.Point3D(p.X, p.Y, p.Z);
         ////}
 
+        /// <summary>
+        /// Mirror Point relative to plane
+        /// </summary>
+        /// <param name="plane">Mirror plane</param>
+        /// <returns>Mirrored Point</returns>
         public Point3D MirrorAbout(Plane plane)
         {
             return plane.MirrorAbout(this);

@@ -8,7 +8,7 @@ namespace MathNet.Spatial.Euclidean
     /// This structure represents a line between two points in 2-space.  It allows for operations such as 
     /// computing the length, direction, projections to, compairisons, and shifting by a vector.  
     /// </summary>
-    public struct Line2D : IEquatable<Line2D>
+    public class Line2D : IEquatable<Line2D>
     {
         private Vector2D _direction;
         private double _length;

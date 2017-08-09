@@ -12,7 +12,7 @@ namespace MathNet.Spatial.Euclidean
     /// A line between two points
     /// </summary>
     [Serializable]
-    public struct Line3D : IEquatable<Line3D>, IXmlSerializable
+    public class Line3D : IEquatable<Line3D>, IXmlSerializable
     {
         /// <summary>
         /// The startpoint of the line

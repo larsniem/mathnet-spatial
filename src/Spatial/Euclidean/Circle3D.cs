@@ -3,7 +3,7 @@
 namespace MathNet.Spatial.Euclidean
 {
     [Serializable]
-    public struct Circle3D
+    public class Circle3D
     {
         public readonly Point3D CenterPoint;
         public readonly UnitVector3D Axis;

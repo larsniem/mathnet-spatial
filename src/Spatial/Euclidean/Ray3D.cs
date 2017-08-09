@@ -8,7 +8,7 @@ using System.Xml.Serialization;
 namespace MathNet.Spatial.Euclidean
 {
     [Serializable]
-    public struct Ray3D : IEquatable<Ray3D>, IXmlSerializable, IFormattable
+    public class Ray3D : IEquatable<Ray3D>, IXmlSerializable, IFormattable
     {
         public readonly Point3D ThroughPoint;
 

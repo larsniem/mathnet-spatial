@@ -187,6 +187,9 @@ namespace MathNet.Spatial.Euclidean
             return p;
         }
 
+        /// <summary>
+        /// Point from origin.
+        /// </summary>
         public static Point3D Origin
         {
             get { return new Point3D(0, 0, 0); }

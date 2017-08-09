@@ -13,7 +13,7 @@ using MathNet.Spatial.Units;
 namespace MathNet.Spatial.Euclidean
 {
     [Serializable]
-    public struct Point3D : IXmlSerializable, IEquatable<Point3D>, IFormattable
+    public class Point3D : IXmlSerializable, IEquatable<Point3D>, IFormattable
     {
         /// <summary>
         /// Using public fields cos: http://blogs.msdn.com/b/ricom/archive/2006/08/31/performance-quiz-11-ten-questions-on-value-based-programming.aspx

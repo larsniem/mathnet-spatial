@@ -10,7 +10,7 @@ using MathNet.Spatial.Units;
 namespace MathNet.Spatial.Euclidean
 {
     [Serializable]
-    public struct Plane : IEquatable<Plane>, IXmlSerializable
+    public class Plane : IEquatable<Plane>, IXmlSerializable
     {
         public readonly UnitVector3D Normal;
         public readonly Point3D RootPoint;
